@@ -8,7 +8,7 @@
         <div class="container-fluid " style="width:90%;  ">
 
                 <h1>WELCOME {{ Auth::user()->name }} </h1>
-                <h5 style="color:red; margin-bottom: 20px;">You may search production data by input the neccesary search value. For other features, please use the navigation bar. </h5>
+                <h5 style="color:red; margin-bottom: 20px;">You may search production data by input the neccesary search value. For other features, please use other search features. </h5>
                 <table border="0" id="example" class="display nowrap table-bordered" style="width:50%; ">
                     <thead>
                         <tr>

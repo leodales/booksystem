@@ -45,12 +45,15 @@
                         <!-- Authentication Links -->
                         @guest
                             <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                           
                         @else
                             <li>
                                 <a href="{{route('home')}}" aria-expanded="false">
                                    Welcome: {{ Auth::user()->name }} 
                                 </a>
+                            </li>
+                            <li>
+                                <a href="{{ route('register') }}">Register</a>
                             </li>
                             <li>
                             <a href="{{route('import')}}"> Production Import</a>
